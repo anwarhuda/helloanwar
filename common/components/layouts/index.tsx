@@ -27,7 +27,7 @@ function Layouts({ children} : Props) {
         <div className="flex flex-col lg:flex-row w-full justify-center lg:gap-5">
           {!hideSidebar && (
             <header>
-              <p>Sidebar</p>
+              
             </header>
           )}
           <main className="lg:max-w-[854px] transition-all scroll-smooth duration-300 w-full lg:min-h-screen no-scrollbar">

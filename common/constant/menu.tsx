@@ -1,8 +1,7 @@
 import {
   BsGithub as GithubIcon,
   BsInstagram as InstagramIcon,
-  BsLinkedin as LinkedinIcon,
-  BsTwitter as TwitterIcon
+  BsLinkedin as LinkedinIcon
 } from 'react-icons/bs';
 
 import { IMenu } from '../interface/menu.interface';
@@ -12,7 +11,7 @@ const iconSize = 20;
 export const SOCIAL_MEDIA: IMenu[] = [
   {
     title: 'Github',
-    href: 'https://github.com/Bayusetiawan45',
+    href: 'https://github.com/anwarhuda',
     icon: <GithubIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
@@ -20,23 +19,15 @@ export const SOCIAL_MEDIA: IMenu[] = [
   },
   {
     title: 'Linkedin',
-    href: 'https://www.linkedin.com/in/bayu-setiawan99/',
+    href: 'https://www.linkedin.com/in/anwar-huda-3a5273146/',
     icon: <LinkedinIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
     eventName: 'Social: Linkedin',
   },
   {
-    title: 'Twitter',
-    href: 'https://twitter.com/',
-    icon: <TwitterIcon size={iconSize} />,
-    isShow: true,
-    isExternal: true,
-    eventName: 'Social: Twitter',
-  },
-  {
     title: 'Instagram',
-    href: 'https://instagram.com/bayustr__',
+    href: 'https://instagram.com/warrr_xcvii',
     icon: <InstagramIcon size={iconSize} />,
     isShow: true,
     isExternal: true,
